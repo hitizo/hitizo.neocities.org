@@ -2,10 +2,12 @@
 
 body {
     padding-top: 25px;
+    background-color: black;
 }
 
 h1.a {
     font-family: pixelify;
+    color: white;
 }
 
 .mainContent {
@@ -21,6 +23,7 @@ h1.a {
     border-width: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: aliceblue;
 }
 
 @font-face {
