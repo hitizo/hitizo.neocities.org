@@ -1,6 +1,11 @@
+@import url('https://googleapis.com');
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 50px;
+    padding-top: 25px;
+}
+
+h1.a {
+    font-family: pixelify;
 }
 
 .mainContent {
@@ -10,9 +15,18 @@ body {
 }
 
 .box {
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border-style: dotted;
     border-width: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@font-face {
+  font-family: 'pixelify';
+  src: url('../assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
