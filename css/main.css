@@ -1,5 +1,18 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+}
+
 .mainContent {
-    align-conten: center;
-    border-width: 3px;
-    border-color: black;
+    align-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.box {
+    text-align: center;
+    border-style: dotted;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
