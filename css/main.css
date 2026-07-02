@@ -9,6 +9,24 @@ h1.a {
     font-family: pixelify;
     color: white;
 }
+h1.a:hover {
+    font-family: pixelify;
+    color: rgb(189, 189, 189);
+}
+
+h2.a {
+    font-family: pixelify;
+    color: rgb(0, 0, 0);
+}
+h2.a:hover {
+    font-family: pixelify;
+    color: rgb(148, 91, 91);
+}
+
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
 
 .mainContent {
     align-content: center;
@@ -23,7 +41,51 @@ h1.a {
     border-width: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+
+     display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+
+    border: 2px dotted white;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+    min-height: 500px;
+}
+
+.boxleft,
+.boxcenter,
+.boxright {
+    font-size: 14px;
+
+    border: 1px dashed black;
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.button {
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  border: solid; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  border: solid; 
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 }
 
 @font-face {
@@ -33,3 +95,4 @@ h1.a {
   font-style: normal;
   font-display: swap;
 }
+
