@@ -11,6 +11,11 @@ body {
     image-rendering: pixelated;                 /* Universal support since 2021   */
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
+
+p:hover {
+    color: #000000;
 }
 
 h1.a {
@@ -28,7 +33,7 @@ h2.a {
 }
 h2.a:hover {
     font-family: pixelify;
-    color: rgb(148, 91, 91);
+    color: rgb(54, 54, 54);
 }
 
 ::selection {
@@ -42,19 +47,8 @@ h2.a:hover {
     margin: auto;
 }
 
-.adventure1 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-}
-
-.info {
-    text-align: center;
-}
-
 .box {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     border-style: dotted;
     border-width: 2px;
     padding-top: 10px;
@@ -72,9 +66,7 @@ h2.a:hover {
     min-height: 500px;
 }
 
-.boxleft,
-.boxcenter,
-.boxright {
+.boxleft {
     font-size: 14px;
 
     border: 1px dashed black;
@@ -84,36 +76,53 @@ h2.a:hover {
     word-break: break-word;
 }
 
-.button {
-  background-color: rgb(0, 0, 0);
-  width: 150px;
-  height: 20px;
-  border: solid;
-  color: white;
-  padding-top: 5px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
+.boxcenter {
+    font-size: 14px;
+    text-align: center;
+
+    border: 1px dashed black;
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
-.button:hover {
-  background-color: rgb(255, 255, 255);
-  width: 150px;
-  height: 20px;
-  border: solid; 
-  color: rgb(0, 0, 0);
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
+.boxright {
+    font-size: 14px;
+    text-align: center;
+
+    border: 1px dashed black;
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.boxofthebox {
+    font-size: 14px;
+
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.links {
+    text-align: left;
 }
 
 a {
-    color: rgb(62, 60, 88);
+    color: rgb(150, 150, 150);
 }
 
 a:hover {
-    color: rgb(114, 114, 114);
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    font-style: italic;
 }
 
 .footer {
