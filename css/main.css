@@ -14,6 +14,10 @@ body {
 
 }
 
+p {
+    color: #4d4d4d;
+}
+
 p:hover {
     color: #000000;
 }
@@ -48,7 +52,7 @@ h2.a:hover {
 }
 
 .box {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: msGothic;
     border-style: dotted;
     border-width: 2px;
     padding-top: 10px;
@@ -121,7 +125,6 @@ a {
 
 a:hover {
     color: rgb(83, 83, 83);
-    font-weight: bold;
     font-style: italic;
 }
 
@@ -136,6 +139,14 @@ a:hover {
 @font-face {
   font-family: 'pixelify';
   src: url('../assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'msGothic';
+  src: url('../assets/MS-Gothic/MSGOTHIC.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
