@@ -1,9 +1,9 @@
 async function openPost(post) {
-
-    const resposta = await fetch("blog/" + post + ".html");
-
-    const html = await resposta.text();
-
+    
+    const response = await fetch("blog/" + post + ".html");
+    
+    const html = await response.text();
+    
     document.getElementById("blog").innerHTML = html;
 
 }

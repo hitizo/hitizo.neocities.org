@@ -4,6 +4,8 @@ body {
     padding-top: 25px;
     background-color: black;
 
+    cursor: url('https://file.garden/ZLptrSeVhBA68gx4/resources/cursors/sburb/SburbDefaultUprightClosed.cur'), auto;
+
     image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
     image-rendering: -moz-crisp-edges;          /* Firefox                        */
     image-rendering: -o-crisp-edges;            /* Opera                          */
@@ -134,6 +136,7 @@ h2.a:hover {
 
 a {
     color: rgb(150, 150, 150);
+    cursor: url('https://file.garden/ZLptrSeVhBA68gx4/resources/cursors/sburb/SburbDefaultUprightLink.cur'), auto;
 }
 
 a:hover {
