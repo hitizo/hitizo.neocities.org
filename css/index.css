@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    align-content: center;
+    text-align: center;
+    background-color: black;
+
+    font-family: MS gothic;
+
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Universal support since 2021   */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+::selection {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a:link {
+    font-family: "pixelify sans", sans-serif;
+    color: rgb(168, 168, 168);
+}
+
+a:visited {
+    font-family: "pixelify sans", sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+a {
+    color: rgb(150, 150, 150);
+    cursor: url('https://file.garden/ZLptrSeVhBA68gx4/resources/cursors/sburb/SburbDefaultUprightLink.cur'), auto;
+}
+
+a:hover {
+    color: rgb(83, 83, 83);
+    font-style: italic;
+}
+
+h1.a {
+    font-family: "pixelify sans", sans-serif;
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}

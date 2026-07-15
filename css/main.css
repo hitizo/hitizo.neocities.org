@@ -1,8 +1,11 @@
 @import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
 
 body {
-    padding-top: 25px;
     background-color: black;
+
+    background-image: url('https://file.garden/ZLptrSeVhBA68gx4/resources/backgrounds/stars.gif');
+    animation: starsScroll 20s linear infinite;
 
     cursor: url('https://file.garden/ZLptrSeVhBA68gx4/resources/cursors/sburb/SburbDefaultUprightClosed.cur'), auto;
 
@@ -25,20 +28,20 @@ p:hover {
 }
 
 h1.a {
-    font-family: pixelify;
+    font-family: "Pixelify Sans", sans-serif;
     color: white;
 }
 h1.a:hover {
-    font-family: pixelify;
+    font-family: "Pixelify Sans", sans-serif;
     color: rgb(189, 189, 189);
 }
 
 h2.a {
-    font-family: pixelify;
+    font-family: "Pixelify Sans", sans-serif;
     color: rgb(0, 0, 0);
 }
 h2.a:hover {
-    font-family: pixelify;
+    font-family: "Pixelify Sans", sans-serif;
     color: rgb(54, 54, 54);
 }
 
@@ -54,10 +57,7 @@ h2.a:hover {
 }
 
 .box {
-    font-family: msGothic;
-    border-style: dotted;
-    border-width: 2x;
-    padding-top: 10px;
+    font-family: MS Gothic;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
 
@@ -65,20 +65,19 @@ h2.a:hover {
     grid-template-columns: 1fr 2fr 1fr;
     gap: 10px;
 
-    border: 2px dotted white;
     padding: 10px;
     background-color: rgb(255, 255, 255);
 
     min-height: 500px;
 }
 
-.boxleft,
+.boxleft, 
 .boxcenter,
 .boxright {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 
-    border: dotted black;
+    border: 1px dashed black;
     padding: 10px;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -99,8 +98,9 @@ h2.a:hover {
 }
 
 .links {
+    font-size: 15px;
     text-align: left;
-    font-family: msGothic;
+    font-family: "MS Gothic";
 }
 
 .pronouns {
@@ -148,7 +148,7 @@ a:hover {
     text-align: center;
     padding: 10px;
     color: white;
-    font-family: newsreader;
+    font-family: MS Gothic;
     font-size: 12px;
 }
 
@@ -171,19 +171,11 @@ a:hover {
     word-break: break-word;   
 }
 
-@font-face {
-  font-family: 'pixelify';
-  src: url('../assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+@keyframes starsScroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 40px 500px;
+    }
 }
-
-@font-face {
-  font-family: 'msGothic';
-  src: url('../assets/MS-Gothic/MSGOTHIC.TTF') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
