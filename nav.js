@@ -15,7 +15,6 @@ document.getElementById("navBar").innerHTML = `
 `;
 
 document.getElementById("footer").innerHTML = `
-            coded with <3 | v2.0 | hitizo.neocities.org © 2024 - ENERNITY <br><br>
-            *yeah no copyrights or anything, everything here is free to use <br>
-            **if i'm using anything that's yours and you want me to remove it, just contact me and i'll remove it
+            coded with <3 | v2.0 | hitizo.neocities.org © 2024 - ENERNITY <br>
+            **if i'm using anything that's yours and you want me to remove it, just contact me at <a href="mailto:hitizo@proton.me">hitizo@proton.me</a> and i'll remove it!
 `;
